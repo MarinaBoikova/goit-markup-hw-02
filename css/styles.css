@@ -37,7 +37,7 @@
  }
  .link-contacts:hover,
  .link-contacts:focus{ 
-     color:  var(--accent-color);
+     color: var(--accent-color);
  }
 
 /* Hero */
@@ -66,4 +66,18 @@ color: var(--primary-text-color);
 }
 .link-footer{
     color: var(--transparent-white-color);
+}
+.link-footer:focus,
+.link-footer:hover{
+    color: var(--accent-color);
+}
+
+/* Portfolio */
+.button{
+    color: var(--primary-text-color);
+    cursor: pointer;
+}
+.button:hover,
+.button:focus{
+    color: var(--accent-color);
 }
