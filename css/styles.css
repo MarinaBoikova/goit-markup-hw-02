@@ -1,0 +1,69 @@
+/* цвет заголовков #212121 */
+/* вторичный цвет текста  #757575 */
+/* белый #FFFFFF  */
+/* акцент #2196F3 */
+/* прозрачный белый  rgba(255, 255, 255, 0,6); */
+
+
+ :root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --transparent-white-color: rgba(255, 255, 255, 0,6);
+  }
+
+  body {
+    color: var( --secondary-text-color);
+    background-color: #ffffff;
+  }
+  /* logo */
+  .logo >span {
+    color: var(--accent-color);
+    }
+ .logo {
+   color: #000000;  
+ }   
+ /* site-nav */
+ .site-nav .link{
+  color: var(--primary-text-color);
+ }
+ .site-nav .link:hover,
+ .site-nav .link:focus {
+     color: var(--accent-color);
+ }
+ .link-contacts{
+  color: var(--secondary-text-color);
+ }
+ .link-contacts:hover,
+ .link-contacts:focus{ 
+     color:  var(--accent-color);
+ }
+
+/* Hero */
+.hero-title {
+color: var(--primary-white-color);
+text-align: center;
+}
+
+.hero-button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.hero-button:focus{
+color: var(--primary-text-color);
+}
+/* Section */
+.section-title {
+color: var(--primary-text-color);
+}
+.section-title-element{
+    color: var(--primary-text-color) ;
+}
+/* Footer */
+.address{
+    color: var(--primary-white-color);
+}
+.link-footer{
+    color: var(--transparent-white-color);
+}
