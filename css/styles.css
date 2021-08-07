@@ -167,7 +167,8 @@ background-color: #2F303A;
     
 .button:hover,
 .button:focus{
-    color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 .title-product{
     color: var(--primary-text-color);
